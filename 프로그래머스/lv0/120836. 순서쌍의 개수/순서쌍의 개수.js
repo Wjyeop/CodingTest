@@ -4,11 +4,6 @@ function solution(n) {
             if(n%i == 0){
                 answer++
             }
-            // for(let j=1; j<=n; j++){
-            //     if(i*j == n){
-            //         answer++;
-            //     }
-            // }
         }
     return answer;
 }
